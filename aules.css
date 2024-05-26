@@ -1,0 +1,48 @@
+
+*{
+    font-style: sans-serif;
+}
+
+.imgprim {
+    margin: 1% 5%;
+    padding: 0 0;
+    text-align: center;
+}
+.imgprim img{
+        max-width:100%;
+    
+}
+
+.main {
+    float: left;
+    width: 90%;
+    margin: 5%;
+  }
+
+.columna {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+} 
+.columna img {
+    max-width:90%;
+    padding: 3%;
+}
+@media only screen and (max-width: 620px) {
+    .columna {
+      width: 100%;
+    }
+}
+
+.final {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18;
+
+}
+footer {
+    color: rgb(12, 240, 145);
+    font-size: 14;
+    margin: 1% 5%;
+    text-align: center;
+}
